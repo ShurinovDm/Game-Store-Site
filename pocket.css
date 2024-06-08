@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.headLogo{
+    width: 20%;
+    height: 100%;
+    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background-size: 65%;
+    float: left;
+}
+.home{
+    width: 20%;
+    height: 100%;
+    background: url("Pictures/Home_Button.png") center no-repeat;
+    background-size: 35%;
+    float: left;
+}
+.home:hover{
+    background-color: black;
+    background-size: 35%;
+}
+.store{
+    width: 20%;
+    height: 100%;
+    background: url("Pictures/Catalog.png") center no-repeat;
+    background-size: 50%;
+    float: left;
+}
+.store:hover{
+    background-color: black;
+    background-size: 50%;
+}
+.pocket{
+    width: 20%;
+    height: 100%;
+    background: url("Pictures/Pocket.png") center no-repeat;
+    background-size: 30%;
+    float: left;
+}
+.pocket:hover{
+    background-color: black;
+    background-size: 30%;
+}
+.profile{
+    width: 20%;
+    height: 100%;
+    background: url("Pictures/Profile.png") center no-repeat;
+    background-size: 35%;
+    float: left;
+}
+.profile:hover{
+    background-color: black;
+    background-size: 35%;
+}
+.headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    height: 800px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.game{
+    width: 85%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.num{
+    width: 10%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 192, 10);
+    color: rgb(255, 255, 255);
+}
+.preview{
+    width: 30%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 147, 30);
+    color: rgb(255, 255, 255);
+}
+.info{
+    width: 60%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 206, 168);
+    color: rgb(0, 0, 0);
+}
+.preview:hover{
+    background-color: rgb(112, 112, 112);
+}
+.delete{
+    width: 14%;
+    height: 50px;
+    border-radius: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("Pictures/Delete.png") center no-repeat;
+    background-size: 32%;
+    background-color: rgb(111, 4, 192);
+    color: rgb(255, 255, 255);
+}
+.delete:hover{
+    background-color: rgb(112, 112, 112);
+}
+.sum{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-color: rgb(4, 192, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FLogo{
+    width: 20%;
+    height: 130px;
+    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background-size: 65%;  
+}
