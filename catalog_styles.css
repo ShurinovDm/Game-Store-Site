@@ -69,15 +69,89 @@
     background-color: black;
     background-size: 35%;
 }
+.line{
+    width: 100%;
+    height: 260px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category1{
+    width: 25%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 147, 30);
+}
+.category1:hover{
+    background-color: rgb(102, 102, 102);
+}
+.category1:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.category1:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.category2{
+    width: 25%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 192, 10);
+}
+.category2:hover{
+    background-color: rgb(102, 102, 102);
+}
+.category2:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.category2:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.category3{
+    width: 25%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(139, 0, 195);
+}
+.category3:hover{
+    background-color: rgb(102, 102, 102);
+}
+.category3:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.category3:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 .footer{
     width: 100%;
     height: 130px;
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .FLogo{
     width: 20%;
     height: 130px;
     background: url("Pictures/Logo_Head.png") center no-repeat;
-    background-size: 65%;
-    float: left;
+    background-size: 65%;  
 }
