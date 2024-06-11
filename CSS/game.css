@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.headLogo{
+    width: 20%;
+    height: 100%;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
+    background-size: 65%;
+    float: left;
+}
+.home{
+    width: 20%;
+    height: 100%;
+    background: url("../Pictures/Home_Button.png") center no-repeat;
+    background-size: 35%;
+    float: left;
+}
+.home:hover{
+    background-color: black;
+    background-size: 35%;
+}
+.store{
+    width: 20%;
+    height: 100%;
+    background: url("../Pictures/Catalog.png") center no-repeat;
+    background-size: 50%;
+    float: left;
+}
+.store:hover{
+    background-color: black;
+    background-size: 50%;
+}
+.cart{
+    width: 20%;
+    height: 100%;
+    background: url("../Pictures/Pocket.png") center no-repeat;
+    background-size: 30%;
+    float: left;
+}
+.cart:hover{
+    background-color: black;
+    background-size: 30%;
+}
+.profile{
+    width: 20%;
+    height: 100%;
+    background: url("../Pictures/Profile.png") center no-repeat;
+    background-size: 35%;
+    float: left;
+}
+.profile:hover{
+    background-color: black;
+    background-size: 35%;
+}
+.cover{
+    width: 30%;
+    height: 240px;
+    float: left;
+    background-color: rgb(178, 178, 178);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.gameInfo{
+    width: 70%;
+    height: 240px;
+    float: right;
+    padding: 10px 15px;
+    background-color: rgb(249, 209, 162);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+}
+.label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: rgb(247, 147, 30);
+    height: 36px;
+    padding-left: 10px;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.gameTags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tag1{
+    width: 28%;
+    height: 40px;
+    border-radius: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    background-color: rgb(247, 147, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag2{
+    width: 28%;
+    height: 40px;
+    border-radius: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    background-color: rgb(124, 30, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.tag3{
+    width: 28%;
+    height: 40px;
+    border-radius: 18%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    background-color: rgb(30, 113, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag1, .tag2, .tag3:link{
+    text-decoration: none;
+}
+.tag1, .tag2, .tag3:visited{
+    text-decoration: none;
+}
+.galery{
+    width: 100%;
+    height: 300px;
+}
+.carousel{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel_inner{
+    display: flex;
+    width: 300%;
+    transition: transform 0.5s;
+}  
+.carousel_item{
+    flex: 1;
+    text-align: center;
+} 
+.carousel_item img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FLogo{
+    width: 20%;
+    height: 130px;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
+    background-size: 65%;  
+}

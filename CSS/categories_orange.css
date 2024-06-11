@@ -21,14 +21,14 @@
 .headLogo{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
     background-size: 65%;
     float: left;
 }
 .home{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Home_Button.png") center no-repeat;
+    background: url("../Pictures/Home_Button.png") center no-repeat;
     background-size: 35%;
     float: left;
 }
@@ -39,7 +39,7 @@
 .store{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Catalog.png") center no-repeat;
+    background: url("../Pictures/Catalog.png") center no-repeat;
     background-size: 50%;
     float: left;
 }
@@ -47,21 +47,21 @@
     background-color: black;
     background-size: 50%;
 }
-.pocket{
+.cart{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Pocket.png") center no-repeat;
+    background: url("../Pictures/Pocket.png") center no-repeat;
     background-size: 30%;
     float: left;
 }
-.pocket:hover{
+.cart:hover{
     background-color: black;
     background-size: 30%;
 }
 .profile{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Profile.png") center no-repeat;
+    background: url("../Pictures/Profile.png") center no-repeat;
     background-size: 35%;
     float: left;
 }
@@ -93,7 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(4, 192, 10);
+    background-color: rgb(247, 147, 30);
     color: rgb(255, 255, 255);
 }
 .info{
@@ -102,11 +102,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(122, 198, 125);
+    background-color: rgb(238, 206, 168);
     color: rgb(0, 0, 0);
 }
 .preview:hover{
     background-color: rgb(112, 112, 112);
+}
+.preview:link{
+    text-decoration: none;
+}
+.preview:visited{
+    text-decoration: none;
 }
 .footer{
     width: 100%;
@@ -122,6 +128,6 @@
 .FLogo{
     width: 20%;
     height: 130px;
-    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
     background-size: 65%;  
 }

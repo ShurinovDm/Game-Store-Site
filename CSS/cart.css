@@ -21,14 +21,14 @@
 .headLogo{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
     background-size: 65%;
     float: left;
 }
 .home{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Home_Button.png") center no-repeat;
+    background: url("../Pictures/Home_Button.png") center no-repeat;
     background-size: 35%;
     float: left;
 }
@@ -39,7 +39,7 @@
 .store{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Catalog.png") center no-repeat;
+    background: url("../Pictures/Catalog.png") center no-repeat;
     background-size: 50%;
     float: left;
 }
@@ -47,21 +47,21 @@
     background-color: black;
     background-size: 50%;
 }
-.pocket{
+.cart{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Pocket.png") center no-repeat;
+    background: url("../Pictures/Pocket.png") center no-repeat;
     background-size: 30%;
     float: left;
 }
-.pocket:hover{
+.cart:hover{
     background-color: black;
     background-size: 30%;
 }
 .profile{
     width: 20%;
     height: 100%;
-    background: url("Pictures/Profile.png") center no-repeat;
+    background: url("../Pictures/Profile.png") center no-repeat;
     background-size: 35%;
     float: left;
 }
@@ -69,73 +69,86 @@
     background-color: black;
     background-size: 35%;
 }
-.line{
-    width: 100%;
-    height: 260px;
-    padding: 10px 20px;
+.headline{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 16pt;
-    float: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.category1{
-    width: 25%;
-    height: 75%;
+    font-size: 28pt;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(247, 147, 30);
 }
-.category1:hover{
-    background-color: rgb(102, 102, 102);
+.line{
+    width: 100%;
+    height: 800px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.category1:link{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.game{
+    width: 85%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.category1:visited{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.category2{
-    width: 25%;
-    height: 75%;
+.num{
+    width: 10%;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(4, 192, 10);
-}
-.category2:hover{
-    background-color: rgb(102, 102, 102);
-}
-.category2:link{
-    text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.category2:visited{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.category3{
-    width: 25%;
-    height: 75%;
+.preview{
+    width: 30%;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(139, 0, 195);
-}
-.category3:hover{
-    background-color: rgb(102, 102, 102);
-}
-.category3:link{
-    text-decoration: none;
+    background-color: rgb(247, 147, 30);
     color: rgb(255, 255, 255);
 }
-.category3:visited{
-    text-decoration: none;
+.info{
+    width: 60%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 206, 168);
+    color: rgb(0, 0, 0);
+}
+.preview:hover{
+    background-color: rgb(112, 112, 112);
+}
+.delete{
+    width: 14%;
+    height: 50px;
+    border-radius: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../Pictures/Delete.png") center no-repeat;
+    background-size: 32%;
+    background-color: rgb(111, 4, 192);
+    color: rgb(255, 255, 255);
+}
+.delete:hover{
+    background-color: rgb(112, 112, 112);
+}
+.sum{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    background-color: rgb(4, 192, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
 .footer{
@@ -152,6 +165,6 @@
 .FLogo{
     width: 20%;
     height: 130px;
-    background: url("Pictures/Logo_Head.png") center no-repeat;
+    background: url("../Pictures/Logo_Head.png") center no-repeat;
     background-size: 65%;  
 }
