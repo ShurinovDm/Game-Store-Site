@@ -1,3 +1,128 @@
+/* .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.33); Небольшое затемнение на фоне
+    z-index: 1000; Поверх всех окон
+    width: 100%;
+    height: 100%;
+    display: flex; По умолчанию скрываем окно
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    overflow-y: scroll;
+  } */
+  
+  /* Стилизация контейнера окна */
+  /* .cart__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; Распределяем элементы внутри равномерно
+    width: 100%;
+    max-width: 800px;
+    min-height: 300px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  Элементы окна (заголовок, список товаров, вывод стоимости)
+  .cart__item0 {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    background-color: rgb(247, 147, 30);
+  }
+  .cart__item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .cart__item:last-of-type {
+    border-bottom: none;
+  }
+  
+  .cart__title {
+    font-size: 20px;
+    
+  }
+  
+  Стили для вывода товара
+  .cart__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .cart__product-wrap {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart__product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .cart__product-title {
+    max-width: 300px;
+    font-weight: 500;
+  }
+  
+  .cart__product-price {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  Стили для кнопки удаления товара
+  .cart__product-delete {
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+    color: #d62240;
+  }
+  
+  Стили для вывода стоимости товаров
+  .cart__cost {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+  }
+  
+  .cart__cost-title {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #364364;
+    text-align: right;
+  }
+  
+  .cart__cost-value {
+    font-size: 20px;
+  }
+  
+  Стили для кнопки закрытия окна
+  .cart__close {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    color: rgba(54, 67, 100, 0.7);
+    font-size: 20px;
+  }
+  
+  .cart__close:hover {
+    color: rgb(54, 67, 100);
+  }
+  
+  .cart--open {
+    display: flex;
+  } */
+
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +158,7 @@
     float: left;
 }
 .home:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 35%;
 }
 .store{
@@ -44,7 +169,7 @@
     float: left;
 }
 .store:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 50%;
 }
 .cart{
@@ -55,7 +180,7 @@
     float: left;
 }
 .cart:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 30%;
 }
 .profile{
@@ -66,7 +191,7 @@
     float: left;
 }
 .profile:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 35%;
 }
 .headline{

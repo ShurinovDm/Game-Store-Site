@@ -1,22 +1,26 @@
-let currentIndex = 0;
-const carouselItems = document.querySelectorAll('.carousel_item');
- 
-function goToSlide(index) {
-  if (index == 0) {
-    index = carouselItems.length - 1;
-  } else if (index == carouselItems.length) {
-    index = 0;
-  }
-  currentIndex = index;
-  document.querySelector('.carousel_inner').style.transform = `translateX(-${currentIndex * 100}%)`;
+const slider = document.querySelector('.slider');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+const slides = Array.from(slider.querySelectorAll('img'));
+const slideCount = slides.length;
+let slideIndex = 0;
+
+prevButton.addEventListener('click', () => {
+  slideIndex = (slideIndex - 1 + slideCount) % slideCount;
+  slide();
+});
+
+nextButton.addEventListener('click', () => {
+  slideIndex = (slideIndex + 1) % slideCount;
+  slide();
+});
+
+const slide = () => {
+  const imageWidth = slider.clientWidth;
+  const slideOffset = -slideIndex * imageWidth;
+  slider.style.transform = `translateX(${slideOffset}px)`;
 }
- 
-function goToNextSlide() {
-  goToSlide(currentIndex + 1);
-}
- 
-function goToPrevSlide() {
-  goToSlide(currentIndex - 1);
-}
- 
-setInterval(goToNextSlide, 3000); // автоматическая прокрутка каждые 3 секунды
+
+window.addEventListener('load', () => {
+  slide();
+});

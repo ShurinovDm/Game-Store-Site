@@ -80,7 +80,7 @@
     height: 240px;
     float: right;
     padding: 10px 15px;
-    background-color: rgb(249, 209, 162);
+    background-color: rgb(156, 219, 158);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     font-size: 16pt;
@@ -100,26 +100,21 @@
     width: 40%;
     height: 40px;
     border-radius: 18%;
-    background-color: rgb(247, 147, 30);
+    background-color: rgb(124, 30, 247);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.game_add{
+.buy{
     width: 40%;
     height: 40px;
     border-radius: 18%;
-    border-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 13pt;
-    font-weight: bold;
     background-color: rgb(4, 192, 10);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.game_add:hover{
+.buy:hover{
     background-color: rgb(102, 102, 102);
 }
 .label{
@@ -127,7 +122,7 @@
     color: rgb(255, 255, 255);
     font-size: 14pt;
     font-weight: bold;
-    background-color: rgb(4, 192, 10);
+    background-color: rgb(247, 147, 30);
     height: 36px;
     padding-left: 10px;
     margin: 15px 0px;
@@ -148,7 +143,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 14pt;
-    background-color: rgb(247, 147, 30);
+    background-color: rgb(4, 192, 10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,41 +159,26 @@
 }
 .galery{
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
-.slider-container {
+.carousel{
     position: relative;
     width: 100%;
-    height: 500px;
-    margin: 0 auto;
     overflow: hidden;
 }
-.slider {
+.carousel_inner{
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    width: 300%;
+    transition: transform 0.5s;
+}  
+.carousel_item{
+    flex: 1;
+    text-align: center;
 } 
-.slider img {
+.carousel_item img{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-} 
-.prev-button,
-.next-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    color: white;
-}
-.prev-button {
-    left: 10px;
-}
-.next-button {
-    right: 10px;
+    max-height: 300px;
+    object-fit: contain;
 }
 .footer{
     width: 100%;

@@ -33,7 +33,7 @@
     float: left;
 }
 .home:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 35%;
 }
 .store{
@@ -44,7 +44,7 @@
     float: left;
 }
 .store:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 50%;
 }
 .cart{
@@ -55,7 +55,7 @@
     float: left;
 }
 .cart:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 30%;
 }
 .profile{
@@ -66,7 +66,7 @@
     float: left;
 }
 .profile:hover{
-    background-color: black;
+    background-color: rgb(255, 235, 201);
     background-size: 35%;
 }
 .line{
@@ -84,6 +84,7 @@
 .category1{
     width: 25%;
     height: 75%;
+    border-radius: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +104,7 @@
 .category2{
     width: 25%;
     height: 75%;
+    border-radius: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,6 +124,7 @@
 .category3{
     width: 25%;
     height: 75%;
+    border-radius: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
